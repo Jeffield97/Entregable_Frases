@@ -22,13 +22,13 @@ const App = () => {
       <div
         className={`bg ${getBackground(
           indexBack,
-        )} h-full  min-w-full min-h-full absolute top-0 bg-slate-500`}
+        )} h-screen w-screen min-w-screen min-h-screen absolute top-0 bg-slate-500`}
       ></div>
       <h3 className="title text-3xl uppercase py-24 w-80 text-center mx-auto relative z-0 text-white">
         Fortune cookies
       </h3>
       <Card>
-        <p className='text-justify'>{phraseRandom.quote}</p>
+        <p className="text-justify">{phraseRandom.quote}</p>
       </Card>
       <Button setIndexBack={setIndexBack} getPraseRandom={getPraseRandom}>
         <p>Try my luck</p>
