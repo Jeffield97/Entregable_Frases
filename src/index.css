@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+}
+.float {
+  animation: float-animation 2.5s infinite ease-in-out;
+}
+
+@keyframes float-animation {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5%);
+  }
+}
+.bg {
+  background-size: 100% 100%;
+  min-height: 700px;
+}
+
+@media (max-width: 480px) {
+  .bg{
+    background-size: 140% 100%;
+  }
+}
+.background1 {
+  background-image: url('./assets/imgs/back1.jpg');
+}
+
+.background2 {
+  background-image: url('./assets/imgs/back2.jpg');
+}
+
+.background3 {
+  background-image: url('./assets/imgs/back3.jpg');
+}
+
+.background4 {
+  background-image: url('./assets/imgs/back4.jpg');
+}
+
+.title {
+  font-family: 'Luckiest Guy', cursive;
+  text-shadow: 5px 2px 2px #000000;
+}
+
