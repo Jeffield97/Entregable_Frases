@@ -23,8 +23,10 @@ body {
 }
 
 @media (max-width: 480px) {
-  .bg{
-    background-size: 140% 100%;
+  .bg {
+    background-size: 100% 100%;
+    min-height: 100vmax;
+    height: 100vmax;
   }
 }
 .background1 {
@@ -47,4 +49,3 @@ body {
   font-family: 'Luckiest Guy', cursive;
   text-shadow: 5px 2px 2px #000000;
 }
-
